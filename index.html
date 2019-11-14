@@ -23,16 +23,22 @@
 			<div class="inner">
 				<!-- Header -->
 				<header id="header">
-					<img src="images/UNBEWUSSTE.png"
-						style="display: block;max-width: 15%;height: auto;align-items: center;">
-					<ul class="icons">
-						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li>
-					</ul>
+					<div>
+						<img src="images/UNBEWUSSTE.png" style="max-width: 20%;height: auto;align-items: center;">
+						<img src="images/ELEMENTO_.png"
+							style="max-width: 10%;height: auto;align-items: center;margin-left: 25%;">
+						<img src="images/FABIANA RATTI.png"
+							style="margin-bottom: 1%;margin-left: 22%;max-width: 20%;height: auto;align-items: center;">
+					</div>
 				</header>
-
+				<ul class="icons" style="float: right;">
+					<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a>
+					</li>
+					<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a>
+					</li>
+					<li><a href="#" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li>
+				</ul>
 				<!-- Banner -->
 				<section id="banner">
 					<div class="content">
@@ -111,69 +117,6 @@
 						<img src="images/pic10.jpg" alt="" />
 					</span>
 				</section>
-				<!-- Section -->
-				<section>
-					<header class="major">
-						<h2>Ipsum sed dolor</h2>
-					</header>
-					<div class="posts">
-						<article>
-							<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
-							<h3>Interdum aenean</h3>
-							<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam
-								facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-							<ul class="actions">
-								<li><a href="#" class="button">More</a></li>
-							</ul>
-						</article>
-						<article>
-							<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
-							<h3>Nulla amet dolore</h3>
-							<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam
-								facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-							<ul class="actions">
-								<li><a href="#" class="button">More</a></li>
-							</ul>
-						</article>
-						<article>
-							<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
-							<h3>Tempus ullamcorper</h3>
-							<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam
-								facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-							<ul class="actions">
-								<li><a href="#" class="button">More</a></li>
-							</ul>
-						</article>
-						<article>
-							<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
-							<h3>Sed etiam facilis</h3>
-							<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam
-								facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-							<ul class="actions">
-								<li><a href="#" class="button">More</a></li>
-							</ul>
-						</article>
-						<article>
-							<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
-							<h3>Feugiat lorem aenean</h3>
-							<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam
-								facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-							<ul class="actions">
-								<li><a href="#" class="button">More</a></li>
-							</ul>
-						</article>
-						<article>
-							<a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
-							<h3>Amet varius aliquam</h3>
-							<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam
-								facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-							<ul class="actions">
-								<li><a href="#" class="button">More</a></li>
-							</ul>
-						</article>
-					</div>
-				</section>
-
 			</div>
 		</div>
 
@@ -217,10 +160,13 @@
 						<h2>Contato</h2>
 					</header>
 					<ul class="contact">
-						<li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li>
-						<li class="icon solid fa-phone">(000) 000-0000</li>
-						<li class="icon solid fa-home">1234 Somewhere Road #8254<br />
-							Nashville, TN 00000-0000</li>
+						<ul class="contact">
+							<li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li>
+							<li class="icon solid fa-phone">(11) 99955-8857</li>
+							<li class="icon solid fa-home">R. Cônego Eugênio Leite, 933<br />conjunto 75 -
+								Pinheiros<br />
+								São Paulo, CEP: 05414-012</li>
+						</ul>
 					</ul>
 				</section>
 
@@ -240,22 +186,19 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
-	<script>
-		$(document).ready(function () {
-
-			$('.tgl').css('display', 'none')
-
-			$("#btnLeia").click(function () {
-
-				$(this).next().slideToggle('slow')
-
-					.siblings('.tgl:visible').slideToggle('fast');
-
-
-			});
-
-		})
+	<!--Start of Tawk.to Script-->
+	<script type="text/javascript">
+		var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+		(function () {
+			var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+			s1.async = true;
+			s1.src = 'https://embed.tawk.to/57d1c877cccb3b470cdb1d53/default';
+			s1.charset = 'UTF-8';
+			s1.setAttribute('crossorigin', '*');
+			s0.parentNode.insertBefore(s1, s0);
+		})();
 	</script>
+	<!--End of Tawk.to Script-->
 </body>
 
 </html>

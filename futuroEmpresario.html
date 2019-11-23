@@ -1,9 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-	Editorial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 
 <head>
@@ -15,26 +10,30 @@
 
 <body class="is-preload">
 
-	<!-- Wrapper -->
 	<div id="wrapper">
 
-		<!-- Main -->
 		<div id="main">
 			<div class="inner">
 
-				<!-- Header -->
 				<header id="header">
-					<img src="images/UNBEWUSSTE.png"
-						style="display: block;max-width: 15%;height: auto;align-items: center;">
-					<ul class="icons">
-						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li>
-					</ul>
+					<div>
+						<img src="images/UNBEWUSSTEAUDIO.png" style="max-width: 20%;height: auto;align-items: center;margin-top: 1%;"onclick="document.getElementById('player').play()"style="margin-left: 1%">
+						<audio id="player" src="Audio/UNBEWUSSTE.mp3"></audio>
+						<img src="images/ELEMENTO_.png"
+							style="max-width: 10%;height: auto;align-items: center;margin-left: 21%;">
+						<img src="images/FABIANA RATTI PSICANALISTA.png"
+							style="margin-left: 23%;max-width: 20%;height: auto;align-items: center;">
+					</div>
 				</header>
+				<ul class="icons" style="float: right;">
+					<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a>
+					</li>
+					<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a>
+					</li>
+					<li><a href="#" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li>
+				</ul>
 
-				<!-- Content -->
 				<section>
 					<header class="main">
 						<h1>Para futuros empresarios</h1>
@@ -55,7 +54,8 @@
 						</p>
 					</div>
 					<div>
-						<form method="post" action="#">
+						<form method="post" action="assets/php/formularioPadrao.php">
+							<input type="hidden" id="tipoFormulario" name="tipoFormulario" value="Futuro empresario">
 							<div class="row gtr-uniform">
 								<div class="col-6 col-12-xsmall">
 									<input type="text" name="nome" id="nome" value="" placeholder="Nome">
@@ -72,7 +72,7 @@
 								</div>
 								<div class="col-12">
 									<ul class="actions">
-										<li><input type="submit" value="Enviar" class="Enviar"></li>
+										<li><input type="submit" value="Enviar" class="Enviar"name="btnEnviar"></li>
 									</ul>
 								</div>
 							</div>
@@ -82,18 +82,9 @@
 			</div>
 		</div>
 
-		<!-- Sidebar -->
 		<div id="sidebar">
 			<div class="inner">
 
-				<!-- Search -->
-				<section id="search" class="alt">
-					<form method="post" action="#">
-						<input type="text" name="query" id="query" placeholder="Search" />
-					</form>
-				</section>
-
-				<!-- Menu -->
 				<nav id="menu">
 					<header class="major">
 						<h2>Menu</h2>
@@ -106,18 +97,17 @@
 						<li><a href="psicanaliseEmpresa.html">Psicanálise na Empresa</a></li>
 						<li><a href="futuroEmpresario.html">Para futuros empresarios</a></li>
 						<li><a href="psicanaliseEscola.html">Psicanálise nas escolas</a></li>
-						<li><a href="paraEmpresario.html">Para empresários</a></li>
 						<li><a href="espacoEstudo.html">Espaço de estudo</a></li>
 						<li><a href="linhaAtendimento.html">Linha de atendimento: clínica do Real</a></li>
 						<li><a href="psicanalistaParceiro.html">Psicanalista parceiro</a></li>
 						<li><a href="painelCultural.html">Painel Cultural</a></li>
 						<li><a href="biblioteca.html">Biblioteca</a></li>
 						<li><a href="parceria.html">Trabalhe em parceria conosco</a></li>
-						<li><a href="atendimento.html"></a>Inscreva-se para ser atendido</a></li>
+						<li><a href="atendimento.html">Inscreva-se para ser atendido</a></li>
+						<li><a href="acompanhanteTerapeutico.html">Acompanhante Terapêutico</a></li>
 					</ul>
 				</nav>
 
-				<!-- Section -->
 				<section>
 					<header class="major">
 						<h2>Contato</h2>
@@ -130,7 +120,6 @@
 					</ul>
 				</section>
 
-				<!-- Footer -->
 				<footer id="footer">
 					<p class="copyright">&copy; Fabiana Ratti. Todos os direitos Reservados.</p>
 				</footer>
@@ -140,25 +129,11 @@
 
 	</div>
 
-	<!-- Scripts -->
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/browser.min.js"></script>
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
-	<!--Start of Tawk.to Script-->
-	<script type="text/javascript">
-		var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
-		(function () {
-			var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
-			s1.async = true;
-			s1.src = 'https://embed.tawk.to/57d1c877cccb3b470cdb1d53/default';
-			s1.charset = 'UTF-8';
-			s1.setAttribute('crossorigin', '*');
-			s0.parentNode.insertBefore(s1, s0);
-		})();
-	</script>
-	<!--End of Tawk.to Script-->
 </body>
 
 </html>

@@ -11,4 +11,10 @@ $(document).ready(function () {
     $('#empresa4Botao').click(function () {
         $('#empresa4Texto').slideToggle('slow');
     });
+    $('#empresa5Botao').click(function () {
+        $('#empresa5Texto').slideToggle('slow');
+    });
+    $('#empresa6Botao').click(function () {
+        $('#empresa6Texto').slideToggle('slow');
+    });
 });

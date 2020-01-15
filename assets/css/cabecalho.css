@@ -1,0 +1,258 @@
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .cabecalho-elemento {
+        max-width: 10%;
+        height: auto;
+        align-items: center;
+        margin-left: 15%;
+    }
+    .cabecalho-audio {
+        max-width: 5%;
+        height: auto;
+        align-items: center;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin-left: 0.5%;
+    }
+    .cabecalho-unbewusste {
+        max-width: 20%;
+        height: auto;
+        align-items: center;
+        margin-top: 1%;
+        margin-left: 2%
+    }
+    .cabecalho-fabiana {
+        margin-left: 22%;
+        max-width: 20%;
+        height: auto;
+        align-items: center;
+    }
+}
+
+
+/* Smartphones (landscape) ----------- */
+
+@media only screen and (min-width: 321px) {
+    .cabecalho-elemento {
+        max-width: 10%;
+        height: auto;
+        align-items: center;
+        margin-left: 15%;
+    }
+    .cabecalho-audio {
+        max-width: 5%;
+        height: auto;
+        align-items: center;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin-left: 0.5%;
+    }
+    .cabecalho-unbewusste {
+        max-width: 20%;
+        height: auto;
+        align-items: center;
+        margin-top: 1%;
+        margin-left: 2%
+    }
+    .cabecalho-fabiana {
+        margin-left: 22%;
+        max-width: 20%;
+        height: auto;
+        align-items: center;
+    }
+}
+
+
+/* Smartphones (portrait) ----------- */
+
+@media only screen and (max-width: 320px) {
+    .cabecalho-elemento {
+        max-width: 10%;
+        height: auto;
+        align-items: center;
+        margin-left: 15%;
+    }
+    .cabecalho-audio {
+        max-width: 5%;
+        height: auto;
+        align-items: center;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin-left: 0.5%;
+    }
+    .cabecalho-unbewusste {
+        max-width: 20%;
+        height: auto;
+        align-items: center;
+        margin-top: 1%;
+        margin-left: 2%
+    }
+    .cabecalho-fabiana {
+        margin-left: 22%;
+        max-width: 20%;
+        height: auto;
+        align-items: center;
+    }
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .cabecalho-elemento {
+        max-width: 10%;
+        height: auto;
+        align-items: center;
+        margin-left: 21%;
+    }
+    .cabecalho-audio {
+        max-width: 5%;
+        height: auto;
+        align-items: center;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin-left: 0.5%;
+    }
+    .cabecalho-unbewusste {
+        max-width: 19%;
+        height: auto;
+        align-items: center;
+        margin-top: 1%;
+        margin-left: 2%
+    }
+    .cabecalho-fabiana {
+        margin-left: 18%;
+        max-width: 20%;
+        height: auto;
+        align-items: center;
+    }
+}
+
+
+/* iPads (landscape) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .cabecalho-elemento {
+        max-width: 10%;
+        height: auto;
+        align-items: center;
+        margin-left: 21%;
+    }
+    .cabecalho-audio {
+        max-width: 5%;
+        height: auto;
+        align-items: center;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin-left: 0.5%;
+    }
+    .cabecalho-unbewusste {
+        max-width: 19%;
+        height: auto;
+        align-items: center;
+        margin-top: 1%;
+        margin-left: 2%
+    }
+    .cabecalho-fabiana {
+        margin-left: 18%;
+        max-width: 20%;
+        height: auto;
+        align-items: center;
+    }
+    /* iPads (portrait) ----------- */
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+        .cabecalho-elemento {
+            max-width: 10%;
+            height: auto;
+            align-items: center;
+            margin-left: 21%;
+        }
+        .cabecalho-audio {
+            max-width: 5%;
+            height: auto;
+            align-items: center;
+            margin-top: 1%;
+            margin-bottom: 1%;
+            margin-left: 0.5%;
+        }
+        .cabecalho-unbewusste {
+            max-width: 19%;
+            height: auto;
+            align-items: center;
+            margin-top: 1%;
+            margin-left: 2%
+        }
+        .cabecalho-fabiana {
+            margin-left: 18%;
+            max-width: 20%;
+            height: auto;
+            align-items: center;
+        }
+    }
+    /* Desktops and laptops ----------- */
+    @media only screen and (min-width: 1224px) {
+        .cabecalho-elemento {
+            max-width: 10%;
+            height: auto;
+            align-items: center;
+            margin-left: 15%;
+        }
+        .cabecalho-audio {
+            max-width: 5%;
+            height: auto;
+            align-items: center;
+            margin-top: 1%;
+            margin-bottom: 1%;
+            margin-left: 0.5%;
+        }
+        .cabecalho-unbewusste {
+            max-width: 20%;
+            height: auto;
+            align-items: center;
+            margin-top: 1%;
+            margin-left: 2%
+        }
+        .cabecalho-fabiana {
+            margin-left: 22%;
+            max-width: 20%;
+            height: auto;
+            align-items: center;
+        }
+    }
+    /* Large screens ----------- */
+    @media only screen and (min-width: 1824px) {
+        .cabecalho-elemento {
+            max-width: 10%;
+            height: auto;
+            align-items: center;
+            margin-left: 15%;
+        }
+        .cabecalho-audio {
+            max-width: 5%;
+            height: auto;
+            align-items: center;
+            margin-top: 1%;
+            margin-bottom: 1%;
+            margin-left: 0.5%;
+        }
+        .cabecalho-unbewusste {
+            max-width: 20%;
+            height: auto;
+            align-items: center;
+            margin-top: 1%;
+            margin-left: 2%
+        }
+        .cabecalho-fabiana {
+            margin-left: 22%;
+            max-width: 20%;
+            height: auto;
+            align-items: center;
+        }
+    }
+    /* iPhone 4 ----------- */
+    @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+    only screen and (min-device-pixel-ratio: 1.5) {
+        /* Styles */
+    }
+}

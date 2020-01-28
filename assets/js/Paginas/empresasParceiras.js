@@ -1,20 +1,26 @@
-$(document).ready(function () {
-    $('#empresa1Botao').click(function () {
+$(document).ready(function() {
+    $('#empresa1Botao').click(function() {
         $('#empresa1Texto').slideToggle('slow');
     });
-    $('#empresa2Botao').click(function () {
+    $('#empresa2Botao').click(function() {
         $('#empresa2Texto').slideToggle('slow');
     });
-    $('#empresa3Botao').click(function () {
+    $('#empresa3Botao').click(function() {
         $('#empresa3Texto').slideToggle('slow');
     });
-    $('#empresa4Botao').click(function () {
+    $('#empresa4Botao').click(function() {
         $('#empresa4Texto').slideToggle('slow');
     });
-    $('#empresa5Botao').click(function () {
+    $('#empresa5Botao').click(function() {
         $('#empresa5Texto').slideToggle('slow');
     });
-    $('#empresa6Botao').click(function () {
+    $('#empresa6Botao').click(function() {
         $('#empresa6Texto').slideToggle('slow');
+    });
+    $('#empresa7Botao').click(function() {
+        $('#empresa7Texto').slideToggle('slow');
+    });
+    $('#empresa8Botao').click(function() {
+        $('#empresa8Texto').slideToggle('slow');
     });
 });

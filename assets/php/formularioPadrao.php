@@ -17,7 +17,7 @@ if (isset($_POST['btnEnviar'])) {
  
  //Configurações do email, ajustar conforme necessidade
  //==================================================== 
- $email_destinatario = "$email"; // pode ser qualquer email que receberá as mensagens
+ $email_destinatario = "$email_remetente"; // pode ser qualquer email que receberá as mensagens
  $email_reply = "$email"; 
  $email_assunto = "$tipoFormulario"; // Este será o assunto da mensagem
  //====================================================
@@ -37,8 +37,9 @@ if (isset($_POST['btnEnviar'])) {
  
  //Enviando o email 
  //==================================================== 
- if (mail ($email_destinatario, $email_assunto, nl2br($email_conteudo), $email_headers)){ 
- echo "<script type='text/javascript'>alert('Formulario enviado com sucesso!')</script>";
+ if (mail ($email_destinatario, $email_assunto, nl2br($email_conteudo), $email_headers)){
+    echo "<script type='text/javascript'>alert('Email enviado com sucesso')</script>";
+    header( "Location: https://www.unbewusste.com.br" );
  } 
  else{ 
  echo "<script type='text/javascript'>alert('Erro ao enviar o email')</script>";

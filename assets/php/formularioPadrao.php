@@ -12,7 +12,7 @@ if (isset($_POST['btnEnviar'])) {
  
  //REMETENTE --> ESTE EMAIL TEM QUE SER VALIDO DO DOMINIO
  //==================================================== 
- $email_remetente = "gabriel.bargas97@gmail.com"; // deve ser uma conta de email do seu dominio 
+ $email_remetente = "contato@fabianaratti.com.br"; // deve ser uma conta de email do seu dominio 
  //====================================================
  
  //Configurações do email, ajustar conforme necessidade

@@ -39,7 +39,7 @@ if (isset($_POST['btnEnviar'])) {
  //==================================================== 
  if (mail ($email_destinatario, $email_assunto, nl2br($email_conteudo), $email_headers)){
     echo "<script type='text/javascript'>alert('Email enviado com sucesso')</script>";
-    header( "Location: https://www.unbewusste.com.br" );
+    header( "Location: sucessoEmail.html" );
  } 
  else{ 
  echo "<script type='text/javascript'>alert('Erro ao enviar o email')</script>";
